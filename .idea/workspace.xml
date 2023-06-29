@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0866601d-a185-4c80-98a1-0badfc4fbb92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPU_SIMULATOR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2RpM0iWAiHmnIoMXEOtTUdEnbYZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/levon/IdeaProjects/CPU_SIMULATOR/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Compiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compiler.Compiler" />
+      <module name="CPU_SIMULATOR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compiler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cpu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hardware.Cpu" />
+      <module name="CPU_SIMULATOR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hardware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CPU_SIMULATOR" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hardware.Ram" />
+      <module name="CPU_SIMULATOR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hardware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Compiler" />
+        <item itemvalue="Application.Cpu" />
+        <item itemvalue="Application.Ram" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0866601d-a185-4c80-98a1-0badfc4fbb92" name="Changes" comment="" />
+      <created>1687942350376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687942350376</updated>
+      <workItem from="1687942351399" duration="21768000" />
+      <workItem from="1687983584408" duration="13683000" />
+      <workItem from="1687998684092" duration="823000" />
+      <workItem from="1688018896284" duration="19595000" />
+      <workItem from="1688041450325" duration="688000" />
+      <workItem from="1688042147059" duration="3145000" />
+      <workItem from="1688046633710" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/hardware/Ram.java</url>
+          <line>24</line>
+          <properties class="hardware.Ram" method="setElementStack">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
