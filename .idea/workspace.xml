@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0866601d-a185-4c80-98a1-0badfc4fbb92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPU_SIMULATOR.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OC/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OC/OS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/code.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/Compiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/Compiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/MapingSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/MapingSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hardware/ALU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/ALU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hardware/Cpu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/Cpu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hardware/Ram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/Ram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hardware/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/home/levon/IdeaProjects/CPU_SIMULATOR/src/Main.java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -122,7 +126,8 @@
       <workItem from="1688018896284" duration="19595000" />
       <workItem from="1688041450325" duration="688000" />
       <workItem from="1688042147059" duration="3145000" />
-      <workItem from="1688046633710" duration="606000" />
+      <workItem from="1688046633710" duration="9038000" />
+      <workItem from="1688104041834" duration="5065000" />
     </task>
     <servers />
   </component>
@@ -130,18 +135,10 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/hardware/Ram.java</url>
-          <line>24</line>
-          <properties class="hardware.Ram" method="setElementStack">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="register" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

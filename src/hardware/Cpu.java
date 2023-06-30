@@ -1,8 +1,5 @@
 package hardware;
 
-import java.util.HashMap;
-import java.util.concurrent.RecursiveTask;
-
 public class Cpu {
     private Ram ram;
     private Register register;
@@ -12,23 +9,25 @@ public class Cpu {
         this.register = new Register();
     }
 
-    //reg     -> 0
-    //lable   -> 1
-    //[]      -> 2
-    //literal -> 3
 
+    // Executes the CPU by fetching instructions from RAM and executing them
     public void executeCpu() {
         ALU alu = new ALU(register);
-        int endProgramIndex = ram.getP1_SIZE();
+        int endProgramIndex = ram.getP1_SIZE();  // The index where the program ends
         int currentGH;
 
+        // Execute instructions until the end of the program is reached
         do {
-            currentGH = register.getRegisterGH();
-            byte[] cell = ram.getInstructionMachineCode(currentGH);
-            alu.execute(cell, ram);
-        }while (endProgramIndex > currentGH + 3); /////////////// popoxutyun
+            currentGH = register.getRegisterGH();  // Get the current instruction index (GH)
+            byte[] cell = ram.getInstructionMachineCode(currentGH);  // Fetch the machine code for the instruction
+            alu.execute(cell, ram); // Execute the instruction using the ALU
+        } while (endProgramIndex > currentGH + 3);  // Continue until the end of the program is reached
+
+        // Print the values of registers
         System.out.println("Print registers Values");
         register.dump_register();
+
+        // Print the values of memory
         System.out.println("Print memory Values");
         ram.dump_memory();
     }
