@@ -72,7 +72,7 @@ To run the code, follow the steps below:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/Levon001/CPU_SIMULATOR.git
+   git clone https://github.com/manuk2000/CPU_SIMULATOR_ASSEMBLER_TRANSLATOR.git
 
 2. Compile the program:
 
